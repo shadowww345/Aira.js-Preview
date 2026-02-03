@@ -1,8 +1,13 @@
 # Aira.js-Preview
 
-Aira.js is a WebGPU-based LLM (Large Language Model) library written in JavaScript. It provides a GPU-accelerated solution for natural language processing and machine learning projects.
+**Aira is a artificial intelligence(GPT algorithm) library that is currently under development.**
 
 By running on the GPU, it delivers performance optimizations for tensor operations and training loops.
+
+## Tests
+**- Intel® HD Graphics 630**:
+    - 200 lines dataset, 128 hidden, 64 embedSize, 3 epochs, learning rate 0.003
+    - 
 
 ## Features
 
