@@ -5,10 +5,13 @@
 By running on the GPU, it delivers performance optimizations for tensor operations and training loops.
 
 ## Tests
-**- Intel® HD Graphics 630**
+**- Intel® HD Graphics 630**:
 
  **- 221 lines dataset, 128 hidden, 64 embedSize, 3 epochs, learning rate 0.003**
     ![inteltest](inteltest.png)
+**- Nvidia GeForce GTX 1050 Mobile**:
+
+   **- 221 lines dataset, 128 hidden, 64 embedSize, 3 epochs, learning rate 0.003**
 
 ## Features
 
