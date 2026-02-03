@@ -12,6 +12,7 @@ By running on the GPU, it delivers performance optimizations for tensor operatio
 **- Nvidia GeForce GTX 1050 Mobile**:
 
    **- 221 lines dataset, 128 hidden, 64 embedSize, 3 epochs, learning rate 0.003**
+   ![1050test](1050test.png)
 
 ## Features
 
