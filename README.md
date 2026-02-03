@@ -6,8 +6,8 @@ By running on the GPU, it delivers performance optimizations for tensor operatio
 
 ## Tests
 **- Intel® HD Graphics 630**:
-    - 200 lines dataset, 128 hidden, 64 embedSize, 3 epochs, learning rate 0.003
-    - 
+    **- 221 lines dataset, 128 hidden, 64 embedSize, 3 epochs, learning rate 0.003**
+    ![inteltest](inteltest.png)
 
 ## Features
 
