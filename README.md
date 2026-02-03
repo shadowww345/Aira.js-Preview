@@ -1,6 +1,6 @@
 # Aira.js-Preview
 
-**Aira is an artificial intelligence library based on a GPT-style architecture, written completely from scratch.**
+### Aira is an artificial intelligence library based on a GPT-style architecture, written completely from scratch.
 
 By running on the GPU, it delivers performance optimizations for tensor operations and training loops.
 
@@ -30,7 +30,20 @@ Training Loop: Training an MLP model on data with loss tracking
 
 Sampling: Top-K and Top-P sampling, repeat penalty, and temperature control
 
-Note: A WebGPU-enabled browser is required to run this project (Chrome Canary or the latest versions of Edge).
+## Hardware Requirements
+
+**Minimum(for testing and experimentation):**
+- CPU: Modern x64 CPU
+- GPU: Intel HD Graphics 630 or equivalent
+- RAM: 8 GB
+- VRAM: ~1.5 GB (shared or dedicated)
+
+**Recommended:**
+- GPU: NVIDIA GTX 1650 / RTX 2080 or better
+- Ram: 16-32 gb
+- VRAM: 8–16 GB
+
+
 
 ## Quick Start
 ```html
