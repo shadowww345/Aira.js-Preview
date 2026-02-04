@@ -43,7 +43,7 @@ Sampling: Top-K and Top-P sampling, repeat penalty, and temperature control
 - Ram: 16-32 gb
 - VRAM: 8–16 GB
 
-
+**Contact me**:aira.project@proton.me
 
 ## Quick Start
 ```html
