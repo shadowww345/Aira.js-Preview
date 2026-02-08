@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    font-family: "SN Pro", sans-serif;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(11, 11, 163, 1) 35%, rgba(54, 0, 54, 1) 100%);
+    color: aliceblue;
+    text-align: justify;
+}
+
+
+#aira {
+    font-size: 850%;
+    padding: 0px;
+    text-align: center;
+}
+
+#div1 {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 24px;
+    font-size: 150%;
+    background-color: aliceblue;
+    color:black;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48
+}
