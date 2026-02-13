@@ -45,6 +45,8 @@ Sampling: Top-K and Top-P sampling, repeat penalty, and temperature control
 
 **Contact me**:aira.project@proton.me
 
+## Please give a star to this project — it’s by far the biggest project I’ve worked on so far.
+
 ## Quick Start
 ```html
 <script type="module" src="src/Aira.js">
