@@ -10,24 +10,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=star" />
 </head>
 <body>
-    <div id="star-count"></div>
-<script>
-      const owner = "shadowww345";
-      const repo = "Aira.js-Preview";
-
-      fetch(`https://api.github.com/repos/${owner}/${repo}`)
-            .then(res => res.json())
-            .then(data => {
-            document.getElementById("star-count").innerText = `⭐ ${data.stargazers_count}`;
-    })
-    .catch(err => {
-      console.error(err);
-      document.getElementById("star-count").innerText = "⭐ None";
-    });
-</script>
     <h1 id="aira">Aira.js</h1>
     <center><img src="aira.png" alt="aira" srcset=""></center>
     <div id="div1">
+        <div id="star-count"></div>
         <center><p>Aira is a WebGPU-based artificial intelligence library built on a GPT-style architecture, written completely from scratch.</p></center><br>
         <p>Features:</p>
         <ul>
@@ -54,6 +40,19 @@
 
     </div>
     <h6>no python😎</h5>
-    
+    <script>
+      const owner = "shadowww345";
+      const repo = "Aira.js-Preview";
+
+      fetch(`https://api.github.com/repos/${owner}/${repo}`)
+            .then(res => res.json())
+            .then(data => {
+            document.getElementById("star-count").innerText = `⭐ ${data.stargazers_count}`;
+    })
+    .catch(err => {
+      console.error(err);
+      document.getElementById("star-count").innerText = "⭐ None";
+    });
+</script>
 </body>
 </html>
