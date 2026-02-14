@@ -1,5 +1,5 @@
 # Aira.js-Preview
-
+![Aira Snowy Owl](aira.png)
 ### Aira is a WebGPU-based artificial intelligence library built on a GPT-style architecture, written completely from scratch.
 
 By running on the GPU, it delivers performance optimizations for tensor operations and training loops.
